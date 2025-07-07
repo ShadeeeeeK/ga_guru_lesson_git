@@ -16,6 +16,8 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 
-print('Hello, qa.guru!')
+def print_name(name):
+    print(f'Hi, {name}!')
 
-print('test!!!!!!')
+
+print_name('Sergey')
